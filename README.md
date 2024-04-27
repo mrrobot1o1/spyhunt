@@ -1,16 +1,15 @@
 
-# INSTALLATION
+## Install and run in virtual Env
 
-```bash
-
+```
 git clone https://github.com/gotr00t0day/spyhunt.git
-
 cd spyhunt
-
+pip3 install virtualenv
+virtualenv spyhunt-Env
+source spyhunt-env/bin/activate
 pip3 install -r requirements.txt
-
-sudo python3 install.py
-
+pip3 install colorama builtwith shodan bs4 mmh3 PyExecJSa
+python3 spyhunt.py 
 ```
 
 # USAGE 
