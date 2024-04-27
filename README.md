@@ -8,7 +8,7 @@ pip3 install virtualenv
 virtualenv spyhunt-Env
 source spyhunt-env/bin/activate
 pip3 install -r requirements.txt
-pip3 install colorama builtwith shodan bs4 mmh3 PyExecJSa
+pip3 install colorama builtwith shodan bs4 mmh3 PyExecJS
 python3 spyhunt.py 
 ```
 
